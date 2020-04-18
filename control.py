@@ -36,10 +36,10 @@ try:
                 GPIO.output(25, GPIO.LOW)
                 break
             if char == ord('e'):            # Vilagitas be
-                GPIO.output(2, GPIO.HIGH)
+                GPIO.output(2, GPIO.LOW)
                 print("LAMP ON")
             if char == ord('r'):            # Vilagitas ki
-                GPIO.output(2, GPIO.LOW)
+                GPIO.output(2, GPIO.HIGH)
                 print("LAMP OFF")
             if char == ord('b'):            # Minden motor leall
                 GPIO.output(5, GPIO.LOW)
